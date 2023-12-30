@@ -7,14 +7,24 @@ class Onboarding extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          Image(
-            image: AssetImage(
-              TImages.lightAppLogo,
-            ),
-          )
-        ],
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(
+            horizontal: 20,
+            vertical: 20,
+          ),
+          child: Column(
+            children: [
+              Image(
+                height: 80,
+                width: 150,
+                image: AssetImage(
+                  TImages.lightAppLogo,
+                ),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
