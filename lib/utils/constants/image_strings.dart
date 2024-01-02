@@ -214,6 +214,21 @@ class TImages {
       "assets/images/products/slipper-product-3.png";
   static const String productImage77 =
       "assets/images/products/slipper-product.png";
+  static const String sky = 'assets/images/products/sky.png';
+  static const String skyOne = 'assets/images/products/skyOne.png';
+  static const String skyTwo = 'assets/images/products/skyTwo.png';
+  static const String pro = 'assets/images/products/pro.jpg';
+  static const String proOne = 'assets/images/products/pro1.jpg';
+  static const String proTwo = 'assets/images/products/pro2.jpg';
+  static const String proThree = 'assets/images/products/pro3.jpg';
+  static const String proFour = 'assets/images/products/pro4.jpg';
+  static const String proFive = 'assets/images/products/pro5.jpg';
+  static const String proSix = 'assets/images/products/pro6.jpg';
+  static const String proSeven = 'assets/images/products/pro7.jpg';
+  static const String proEight = 'assets/images/products/pro8.jpg';
+  static const String proNine = 'assets/images/products/pro9.jpg';
+  static const String proTen = 'assets/images/products/pro10.jpg';
+  static const String proEleven = 'assets/images/products/pro11.jpg';
 
   // -- Product Reviews
   static const String userProfileImage1 =
